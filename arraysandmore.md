@@ -21,7 +21,7 @@ Important things to note are that:
 ![array](https://media.geeksforgeeks.org/wp-content/uploads/Arrays1.png)
 
 
-```js
+```java
 //BASIC ARRAY CONCEPTS
 
 //Declare an array and then allocate memory
@@ -44,7 +44,7 @@ Common ways to traverse an array include for loops and enhanced for loops:
 - An enhanced for loop is simpler but you CANNOT access the index, only the value
 
 
-```js
+```java
 //Basic for loop to print elements of array
 int[] arr1 = {0, 6, 8, 2};
 
@@ -78,7 +78,7 @@ for(int value: arr1){
 # Hack: Create method that sets all elements in array to n
 
 
-```js
+```java
 void setArray(int[] arr, int n) {
     // your code here
 }
@@ -112,7 +112,7 @@ Arrays are an essential part in developing algorithms. It is important to unders
 There are lots of algorithms you can create,and CollegeBoard goes over a lot of good examples of this. They go over this in the 6.4 unit videos. 
 
 
-```js
+```java
 //Example finding the max in an array. 
 
 //Finds the maximum in an array
@@ -151,7 +151,7 @@ Generally, when you are coding algorithms using arrays you will probably use som
 ## Hack: Write an array to find the average of an array
 
 
-```js
+```java
 //Example finding the max in an array. 
 
 //Finds the maximum in an array
@@ -182,7 +182,7 @@ Columns is based on the size of each row of an array and can be determined based
 ### 2-D Array Basics
 
 
-```js
+```java
 //create a new 2-d array (default to all 0s)
 int[][] twoDArray = new int[3][3];
 
@@ -205,7 +205,7 @@ twoDArray[twoDArray.length - 1][twoDArray[0].length - 1];
 The 2D array is useful to represent a matrix as well, which then can be accessed by the rows and columns. This is a good way to visualize a 2d array. Here, I will show an example of how a "grid" looks like + initialization
 
 
-```js
+```java
 // GRID of our array
 // 4 5 6
 // 7 8 9
@@ -223,7 +223,7 @@ int[][] twoDArray = {
 2-D arrays are traversed similarly to arrays in that you will primarily use for and while loops. However, since there are both rows and columns now, you will need to use nested for loops or nested enhanced for loops. 
 
 
-```js
+```java
 //Prints the 2-d array
 public static void print2D(int mat[][])
     {
@@ -262,7 +262,7 @@ When you are traversing, again make sure to consider the pros/cons of for vs enh
 # Think: What would this code print and why (without running it yourself)?
 
 
-```js
+```java
 
 public static void main(String[] args){
     int[][] arrayOne = new int[5][7];
