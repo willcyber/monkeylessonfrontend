@@ -1,5 +1,8 @@
 # Arrays and 2D Arrays
 
+### Cloning this Repo
+Fork this repo to follow along, you will need to submit the hacks on your completed repo: [https://github.com/nicm2/monkeylessonfrontend][repo]
+
 ### Arrays
 Arrays are 10-15% of the exam, so it is very important to understand the basics of arrays. Collegeboard will typically test you on:
 - Representing multiple items as array objects
