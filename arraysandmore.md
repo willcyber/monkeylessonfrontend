@@ -1,10 +1,5 @@
 # Arrays and 2D Arrays
 
-- toc: false
-- badges: true
-- categories: [cb]
-- author: Macro Monkeys
-
 ### Arrays
 Arrays are 10-15% of the exam, so it is very important to understand the basics of arrays. Collegeboard will typically test you on:
 - Representing multiple items as array objects
